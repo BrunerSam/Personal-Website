@@ -1,0 +1,25 @@
+body{
+    background: #2b7fad;
+    font-family: 'Pacifico', cursive;
+    font-size: 48px;
+  } 
+  .header {
+      padding: 25px; /* some padding */
+      text-align: center; /* center the text */
+      background: #1abc9c; /* green background */
+      font-size: 24px;
+      text-shadow: 4px 4px 4px rgb(90, 89, 89);
+    }  
+  /* Increase the font size of the <h1> element */
+  .header h1 {
+      font-size: 40px;  
+    }
+  .links {
+    float: left;
+    width: 33.33%;
+  }
+  .chart:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
